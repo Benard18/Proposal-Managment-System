@@ -91,15 +91,15 @@
               <div class="col-md-6">
                     <h1>About Us</h1>
                   <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ideas of changing the way we conduct things in our company!</p>
+                  <p style="font-size: 30px;">The Staff Decide on what proposal to choose. The section on the right contains our able staff.</p>
               </div>
               <div class="col-md-6">
                   <h1><strong>The Staff</strong></h1>
                   @foreach($admins as $admin)
                   <div class="card">
                   <h2 class="card-header" style="color: black">{{$admin->name}}</h2>
-                    <small class="cardbody" style="color:black">
-                        {{$admin->job_title}}
-                    </small>                      
+                    <small class="cardbody" style="color:black;">
+                        |||{{$admin->job_title}}||||                    </small>                      
                   </div>
                   <hr>
                   <br>
