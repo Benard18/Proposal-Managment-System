@@ -90,7 +90,7 @@
           <div class="row">
               <div class="col-md-6">
                     <h1>About Us</h1>
-                  <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ideas of changing the way we conduct things in our company!</p>
+                  <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us innovative ideas of changing the way we conduct things in our company!</p>
                   <p style="font-size: 30px;">The Staff Decide on what proposal to choose. The section on the right contains our able staff.</p>
               </div>
               <div class="col-md-6">
