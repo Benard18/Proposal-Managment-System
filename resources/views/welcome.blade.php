@@ -71,7 +71,7 @@
     <body>
         <div class="flex-center position-ref full-height" style="color:white;background-color:rgba(0,0,0,0.5);">
             <div class="top-left links">
-                <a href="{{ url('/about') }}">About</a>
+                <a href="{{ url('/about') }}">About the app</a>
             </div>
             @if (Route::has('login'))
                 <div class="top-right links">
