@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/dashboard', 'DashboardController@index');
 Route::get('/users/logout','Auth\LoginController@userLogout')->name('user.logout');
 Route::prefix('admin')->group(function(){
   Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
@@ -29,4 +29,9 @@ Route::prefix('admin')->group(function(){
   Route::get('/password/reset','Auth\AdminForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
   Route::post('/password/reset','Auth\AdminResetPasswordController@reset');
   Route::get('/password/reset/{token}','Auth\AdminResetPasswordController@showResetForm')->name('admin.password.update');
+Route::resource('proposals', 'AdminProposalsController');
+Route::post('/approve','AdminProposalsController@postApprove')->name('approve');
+
 });
+
+Route::resource('proposals','ProposalsController');
