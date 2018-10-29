@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/about','DashboardController@about');
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');

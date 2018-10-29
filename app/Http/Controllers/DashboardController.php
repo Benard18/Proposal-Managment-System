@@ -33,4 +33,9 @@ class DashboardController extends Controller
         $approve = Approve::all();
         return view('dashboard')->with(array('proposals'=>$user->proposals,'approve'=>$approve));
     }
+
+    public function about()
+    {
+        return view('about')
+    }
 }
