@@ -88,7 +88,7 @@
         <div class="container-fluid">
           <div class="row">
               <div class="col-md-4">
-                  <p style="font-size: 70px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ways of changing the way we conduct things in our company!</p>
+                  <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ways of changing the way we conduct things in our company!</p>
               </div>
               <div class="col-md-8">
                   <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid">
