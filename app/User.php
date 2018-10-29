@@ -29,4 +29,15 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+     public function approves(){
+        return $this->hasMany('App\Approve');
+}
+         public function admin()
+    {
+        return $this->belongsTo('App\Admin');
+    }
+     public function proposals()
+    {
+        return $this->hasMany('App\Proposal');
+    }
 }
