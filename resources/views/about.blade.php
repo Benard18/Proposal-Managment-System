@@ -99,7 +99,7 @@
                   <div class="card">
                   <h2 class="card-header" style="color: black">{{$admin->name}}</h2>
                     <small class="cardbody" style="color:black;">
-                        |||{{$admin->job_title}}||||                    </small>                      
+                        {{$admin->job_title}}             </small>                      
                   </div>
                   <hr>
                   <br>
