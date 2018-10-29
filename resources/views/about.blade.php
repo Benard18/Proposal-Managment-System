@@ -96,9 +96,9 @@
                   <h1>The Staff</h1>
                   @foreach($admins as $admin)
                   <div class="card">
-                  <h2 class="card-header">{{admin->name}}</h2>
+                  <h2 class="card-header">{{$admin->name}}</h2>
                     <small class="cardbody">
-                        {{admin->job_title}}
+                        {{$admin->job_title}}
                     </small>                      
                   </div>
                   @endforeach
