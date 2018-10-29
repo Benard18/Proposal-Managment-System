@@ -91,7 +91,7 @@
                   <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ways of changing the way we conduct things in our company!</p>
               </div>
               <div class="col-md-8">
-                  <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid">
+                  <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid" style="max-width: 50%;height: 200px;">
               </div>
           </div>
         </div>
