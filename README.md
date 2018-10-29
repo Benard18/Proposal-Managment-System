@@ -1,4 +1,4 @@
-     PM-System 
+ PM-System 
 ======================
 
 This is an application based on managing proposals and determining if it is valid or not.
