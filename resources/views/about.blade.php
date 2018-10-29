@@ -17,13 +17,10 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100%;
                 margin: 0;
             }
 
-            .full-height {
-                height: 100%;
-            }
+    
 
             .flex-center {
                 align-items: center;
@@ -70,7 +67,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height" style="color:white;background-color:rgba(0,0,0,0.5);">
+        <div class="flex-center position-ref" style="color:white;background-color:rgba(0,0,0,0.5);">
             <div class="top-left links">
                 <a href="{{ url('/about') }}">About</a>
             </div>
