@@ -35,7 +35,8 @@ class DashboardController extends Controller
     }
 
     public function about()
-    {
-        return view('about');
+    {   
+        $admins = Admin::all();
+        return view('about')->with('admins',$admins);
     }
 }

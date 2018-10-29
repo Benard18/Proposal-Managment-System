@@ -86,14 +86,22 @@
                 </div>
             @endif
 
-        <div class="container-fluid" style="margin-top: 300px;margin-bottom: 300px;">
+        <div class="container-fluid" style="margin-top: 250px;margin-bottom: 400px;">
           <div class="row">
               <div class="col-md-6">
                     <h1>About Us</h1>
                   <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ideas of changing the way we conduct things in our company!</p>
               </div>
               <div class="col-md-6">
-                  <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid" style="max-width: 50%;height: 200px;float: left;text-align: center;">
+                  <h1>The Staff</h1>
+                  @foreach($admins as $admin)
+                  <div class="card">
+                  <h2 class="card-header">{{admin->name}}</h2>
+                    <small class="cardbody">
+                        {{admin->job_title}}
+                    </small>                      
+                  </div>
+                  @endforeach
               </div>
           </div>
         </div>
