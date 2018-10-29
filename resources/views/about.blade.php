@@ -86,7 +86,7 @@
                 </div>
             @endif
 
-        <div class="container-fluid">
+        <div class="container-fluid" style="line-height: 300px;">
           <div class="row">
               <div class="col-md-4">
                   <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ways of changing the way we conduct things in our company!</p>
