@@ -49,7 +49,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: white;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -64,11 +64,11 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="flex-center position-ref full-height" style="color:white;background-color:rgba(0,0,0,0.5);">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/dashboard') }}">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
@@ -83,9 +83,10 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
             <div class="card">
-              @component('components.who')
-
-              @endcomponent()
+                <h1>W E L C O M E  </h1><br><h1>T O</h1>
+                <br>
+                <h1>B E N K C O N / P M - S Y S T E M</h1> 
+                <small> A system of giving proposals to the company and awaiting for approvals </small>
             </div>
           </div>
           </div>
