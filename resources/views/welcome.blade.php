@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -85,7 +85,7 @@
             <div class="card">
                 <h1>W E L C O M E  </h1><br><h1>T O</h1>
                 <br>
-                <h1>B E N K C O N / P M - S Y S T E M</h1> 
+                <h1>B E N K C O N / P M - S Y S T E M</h1>
                 <small> A system of giving proposals to the company and awaiting for approvals </small>
             </div>
           </div>
