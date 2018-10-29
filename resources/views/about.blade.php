@@ -86,13 +86,13 @@
                 </div>
             @endif
 
-        <div class="container-fluid" style="margin-top: 300px;">
+        <div class="container-fluid" style="margin-top: 300px;margin-bottom: 100px;">
           <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-6">
                   <p style="font-size: 30px;">Changing the lives of people by providing for them the necessary ways of giving us inovative ways of changing the way we conduct things in our company!</p>
               </div>
-              <div class="col-md-8">
-                  <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid" style="max-width: 50%;height: 200px;float: right;text-align: center;">
+              <div class="col-md-6">
+                  <img src="https://cdn.dribbble.com/users/1014040/screenshots/2575297/amstel.png" class="img-fluid" style="max-width: 50%;height: 200px;float: left;text-align: center;">
               </div>
           </div>
         </div>
