@@ -9,6 +9,14 @@ This is an application based on managing proposals and determining if it is vali
 To get started, you will need to do the following.
 
 Clone the repository
+```bash
+$ git clone https://github.com/Benard18/Proposal-Managment-System
+
+or
+
+$git clone https://git.ralphowino.com/ben/PM-System
+
+```
 
 . See deployment for notes on how to deploy the project on a live system.
 
