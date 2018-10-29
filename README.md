@@ -3,6 +3,7 @@
 
 This is an application based on managing proposals and determining if it is valid or not.
 
+THe live link is [here](http://http://proposal-ms.herokuapp.com)
 ![photo](home.png)
 ## Getting Started
 
