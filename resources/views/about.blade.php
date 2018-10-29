@@ -86,7 +86,7 @@
                 </div>
             @endif
 
-        <div class="container-fluid" style="margin-top: 250px;margin-bottom: 400px;">
+        <div class="container-fluid" style="margin-top:150px;margin-bottom: 600px;">
           <div class="row">
               <div class="col-md-6">
                     <h1>About Us</h1>
