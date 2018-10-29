@@ -36,4 +36,12 @@ class Admin extends Authenticatable
     {
         $this->notify(new AdminResetPasswordNotification($token));
     }
+
+    public function approves(){
+        return $this->hasMany('App\Approve');
+}
+    public function proposal(){
+        return $this->hasMany('App\Proposal');
+    
+    }
 }
