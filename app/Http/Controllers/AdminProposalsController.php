@@ -26,7 +26,8 @@ class AdminProposalsController extends Controller
           $proposals = Proposal::orderBy('created_at','desc')->paginate(10);
           $id = Auth::user()->id;
         $user = Admin::find($id);
-        return view('admin.proposals.index')->with(array('proposals'=> $proposals,'user' =>$user));
+        $approves = Approve::all()->sort();
+        return view('admin.proposal.index')->with(array('proposals'=> $proposals,'user' =>$user,'approves',$approves));
     }
 
     /**
@@ -59,18 +60,32 @@ class AdminProposalsController extends Controller
     public function show($id)
     {
          $proposal = Proposal::find($id);
-                return view('admin.proposals.show')->with('proposal',$proposal);
+                return view('admin.proposal.show')->with('proposal',$proposal);
     }
-
+ public function failedShow()
+    {
+             $approve = Approve::all();
+                return view('admin.proposal.show-fail')->with(array('proposals'=>$user->proposals,'approve'=>$approve));
+    }
+public function acceptedShow()
+    {
+          $proposal = Proposal::find($id);
+                return view('admin.proposal.show-accept')->with(array('proposals'=>$user->proposals,'approve'=>$approve));
+    }
     /**
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+    public function navbar(){
+        $approves = Approve::all()->sort();
+
+        return view('admin')->with('approves',$approves);
+    }
     public function edit($id)
     {
-        //
+        
     }
 
     /**

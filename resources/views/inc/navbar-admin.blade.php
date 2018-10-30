@@ -4,7 +4,7 @@
       <ul class="navbar-nav ml-auto">
     <li class="nav-item">    <a class="nav-link" href="/admin/proposals">All Proposal</a>
     </li>
-    <li class="nav-item">    <a class="nav-link" href="/admin/proposals/accepted">Accepted Proposals</a>
+    <li class="nav-item">    <a class="nav-link" href="#">Accepted Proposals</a>
     </li>
       </ul>
       
@@ -70,7 +70,7 @@
                   All Proposals
                 </a>
               </li>
-              <li class="nav-item">
+             <!--  <li class="nav-item">
                 <a class="nav-link" href="/admin/proposals/failed">
                   <span data-feather="file-text"></span>
                   Failed Proposals
@@ -81,7 +81,7 @@
                   <span data-feather="file-text"></span>
                   Pre-determined Proposals
                 </a>
-              </li>
+              </li> -->
               
             </ul>
           </div>

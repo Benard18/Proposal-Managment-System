@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Proposal;
 use Illuminate\Support\Facades\Input;
-
+use App\Approve;
 
 class ProposalsController extends Controller
 {
@@ -22,7 +22,8 @@ class ProposalsController extends Controller
     public function index()
     {
          $proposals = Proposal::orderBy('created_at','desc')->paginate(10);
-        return view('proposals.index')->with('proposals', $proposals);
+          $approve = Approve::all();
+        return view('proposals.index')->with(array('proposals'=>$proposals,'approve'=>$approve));
     }
 
     /**
@@ -67,7 +68,8 @@ class ProposalsController extends Controller
     public function show($id)
     {
          $proposal = Proposal::find($id);
-                return view('proposals.show')->with('proposal',$proposal);
+         $approve = Approve::all();
+                return view('proposals.show')->with(array('proposal'=>$proposal,'approve'=>$approve));
     }
 
     /**

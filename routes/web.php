@@ -31,7 +31,6 @@ Route::prefix('admin')->group(function(){
   Route::get('/password/reset/{token}','Auth\AdminResetPasswordController@showResetForm')->name('admin.password.update');
 Route::resource('proposals', 'AdminProposalsController');
 Route::post('/approve','AdminProposalsController@postApprove')->name('approve');
-
+Route::get('/navbar','AdminProposalsController@navbar');
 });
-
 Route::resource('proposals','ProposalsController');
